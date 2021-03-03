@@ -5,7 +5,7 @@ When a new message is added to the database, it will be received by all connecte
 
 ## Build & Run
 Download the sources from the repository and run the service in the docker container
-```shell
+```
 git clone https://github.com/pshvedko/broadcast.git
 cd broadcast
 docker-compose up
@@ -16,10 +16,10 @@ Open http://localhost:8080 in browser
 
 ## Messages
 Add records to the database using a connection
-```shell
+```
 psql postgres://admin:admin@localhost/broadcast
 ```
 Insert rows into table
-```postgresql
+```
 insert into messages values ('some text there');
 ```
