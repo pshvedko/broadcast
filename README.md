@@ -4,7 +4,9 @@ All users who are connected will receive a random message from the list of messa
 When a new message is added to the database, it will be received by all connected.
 
 ## Build & Run
-Download the sources from the repository and run the service in the docker container
+Download the sources from the repository and run the service in the docker container.
+
+*Before starting, make sure you have free ports 8080 and 5432*
 ```
 git clone https://github.com/pshvedko/broadcast.git
 cd broadcast
